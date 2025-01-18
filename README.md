@@ -1,14 +1,5 @@
 
 
-## ✒️ Contents
-- [News](#news)
-- [Contents](#contents)
-- [Overview](#overview)
-- [Preparation](#preparation)
-- [Usage](#usage)
-- [Citation](#citation)
-- [Acknowledgment](#acknowledgment)
-
 ## 👀 Overview
 
 In vision-language models (VLMs), visual tokens usually consume a significant amount of computational overhead, despite their sparser information density compared to text tokens. To address this, existing methods extract more compact image representations by modifying the image encoder or projector. While some recent works further sparsify vision tokens during the decoding, they still ignore the guidance from the language tokens, which **contradicts the multimodality paradigm**. We argue that **visual tokens should be sparsified adaptively based on the question prompt**, as the model might focus on different parts (e.g., foreground or background) when dealing with various questions, as shown in Figure below. Unlike previous methods with text-agnostic visual sparsification (c) e.g., recent FastV, our SparseVLM (b) is guided by question prompts to select relevant visual patches.
