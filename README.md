@@ -1,12 +1,5 @@
 
 
-
-
-
-<p align='center'>
-<img src='./assests/archi.png' alt='mask' width='700px'>
-</p>
-
 ## ✒️ Contents
 - [News](#news)
 - [Contents](#contents)
@@ -28,14 +21,14 @@ In vision-language models (VLMs), visual tokens usually consume a significant am
 
 1. Clone this repository and navigate to SparseVLMs folder
 ```bash
-git clone https://github.com/Gumpest/SparseVLMs.git
-cd SparseVLMs
+git clone https://github.com/hyiii0204/FlashVLMs.git
+cd FlashVLMs
 ```
 
 2. Install necessary package
 ```Shell
-conda create -n SparseVLMs python=3.10 -y
-conda activate SparseVLMs
+conda create -n FlashVLMs python=3.10 -y
+conda activate FlashVLMs
 pip install -e .
 ```
 
