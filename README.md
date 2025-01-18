@@ -1,31 +1,6 @@
-<div align="center">
 
-<h1> SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference </h1>
 
-<h5 align="center"> 
 
-[Yuan Zhang](https://gumpest.github.io/)<sup>1,3* </sup>,
-[Chun-Kai Fan](https://scholar.google.com/citations?user=TxeAbWkAAAAJ&hl=en&oi=ao)<sup>1*</sup>,
-[Junpeng Ma]()<sup>2*</sup>,
-[Wenzhao Zheng](https://wzzheng.net/)<sup>3✉️</sup>,
-[Tao Huang](https://taohuang.info/)<sup>4</sup>,
-[Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm)<sup>1</sup>,
-
-[Denis Gudovskiy]()<sup>5</sup>,
-[Tomoyuki Okuno]()<sup>5</sup>,
-[Yohei Nakata]()<sup>5</sup>,
-[Kurt Keutzer](http://people.eecs.berkeley.edu/~keutzer/)<sup>3</sup>,
-[Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm)<sup>1✉️</sup>
-
-<sup>1</sup>School of Computer Science, Peking University, <sup>2</sup>Fudan University,
-
-<sup>3</sup>UC Berkeley, <sup>4</sup>The University of Sydney, <sup>5</sup>Panasonic Holdings Corporation
-
-</h5>
-</div>
-
-## 📜 News 
-🔥 **[2024/10/15]** We released **[SparseVLM](https://arxiv.org/pdf/2410.04417)** and its **[Project Page](https://leofan90.github.io/SparseVLMs.github.io/)**! The **[Code](https://github.com/Gumpest/SparseVLMs)** is now open-source!
 
 
 <p align='center'>
@@ -90,18 +65,6 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
 
 This project is released under the [Apache 2.0 license](LICENSE).
 
-## Citation
-
-If you use SparseVLM in your research, please cite our work by using the following BibTeX entry:
-```bibtex
-@article{zhang2024sparsevlm,
-  title={SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference},
-  author={Zhang, Yuan and Fan, Chun-Kai and Ma, Junpeng and Zheng, Wenzhao and Huang, Tao and Cheng, Kuan and Gudovskiy, Denis and Okuno, Tomoyuki and Nakata, Yohei and Keutzer, Kurt and others},
-  journal={arXiv preprint arXiv:2410.04417},
-  year={2024}
-}
-
-```
 ## Acknowledgment
 
 We extend our gratitude to the open-source efforts of [TCFormer](https://github.com/zengwang430521/TCFormer), [LLaVA](https://github.com/haotian-liu/LLaVA), [MiniGemini](https://github.com/dvlab-research/MGM) and [VideoLLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA).
